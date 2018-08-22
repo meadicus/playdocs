@@ -1,4 +1,10 @@
-## Welcome to GitHub Pages
+## Welcome to PlayDocs
+
+TODO
+* left menu
+* right menu
+* code snippets
+* request & response tabs
 
 You can use the [editor on GitHub](https://github.com/meadicus/playdocs/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
 
