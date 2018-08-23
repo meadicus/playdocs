@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+  {%- include head.html -%}
+
+  <body>
+
+    {%- include header.html -%}
+
+    <main class="page-content" aria-label="Content">
+      <div class="wrapper">
+	<div class="leftbar">
+		{%- include menu.html -%}
+	</div>
+<hr>
+	{% unless page.noToc %}
+	<div class="toc">
+{% include toc_pure_liquid.html html=content sanitize=true class="inline_toc" id="my_toc" h_min=2 h_max=3  %}
+	</div>
+<hr>
+	{% endunless %}
+	<div class="main-content">
+        {{ content }}
+	</div>
+      </div>
+    </main>
+
+    {%- include footer.html -%}
+
+  </body>
+
+</html>

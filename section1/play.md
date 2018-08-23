@@ -2,8 +2,10 @@
 title: play page
 ---
 
-# Play
+## Play
 
 Hello world
+
+## Always play
 
 This is a play.

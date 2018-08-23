@@ -1,10 +1,14 @@
-## Welcome to PlayDocs
+---
+title: Getting Started
+noToc: true
+---
 
 TODO
-* left menu
-* right menu
-* code snippets
+* left menu (/)
+* right menu (/)
+* code snippets (/)
 * request & response tabs
+* syling
 
 [play](section1/play "In Play")
 

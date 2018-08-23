@@ -6,4 +6,22 @@ title: the docs page
 
 these are docs
 
-I like them
+{% capture request %}
+{
+	"foo": "bar"
+}
+{% endcapture %}
+{% capture response %}
+{
+	"fish" : "fingers"
+}
+{% endcapture %}
+{% include requestResponse.html %}
+
+## I like them
+
+I do
+
+## some more
+
+go docs
