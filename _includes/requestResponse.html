@@ -1,4 +1,21 @@
-#### Request
+{% assign baseId = include.id %}
+
+<ul class="nav nav-tabs" id="{{ baseId }}-myTab" role="tablist">
+  <li class="nav-item">
+    <a class="nav-link active" id="{{ baseId }}-request-tab" data-toggle="tab" href="#{{ baseId }}-request" role="tab" aria-controls="{{ baseId }}-request" aria-selected="true">Request</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" id="{{ baseId }}-response-tab" data-toggle="tab" href="#{{ baseId }}-response" role="tab" aria-controls="{{ baseId }}-response" aria-selected="false">Response</a>
+  </li>
+</ul>
+<div class="tab-content" id="{{ baseId }}-myTabContent">
+  <div class="tab-pane fade show active" id="{{ baseId }}-request" role="tabpanel" aria-labelledby="{{ baseId }}-request-tab">
 <pre><code>{{ request | strip }}</code></pre>
-#### Response
+</div>
+  <div class="tab-pane fade" id="{{ baseId }}-response" role="tabpanel" aria-labelledby="{{ baseId }}-response-tab">
 <pre><code>{{ response | strip }}</code></pre>
+</div>
+</div>
+
+
+

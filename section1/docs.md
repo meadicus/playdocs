@@ -16,7 +16,7 @@ these are docs
 	"fish" : "fingers"
 }
 {% endcapture %}
-{% include requestResponse.html %}
+{% include requestResponse.html id="example1" %}
 
 ## I like them
 

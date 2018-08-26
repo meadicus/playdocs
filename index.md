@@ -7,7 +7,7 @@ TODO
 * left menu (/)
 * right menu (/)
 * code snippets (/)
-* request & response tabs
+* request & response tabs (/)
 * syling
 
 [play](section1/play "In Play")
