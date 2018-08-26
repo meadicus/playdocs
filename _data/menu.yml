@@ -1,0 +1,13 @@
+toc:
+  - title: Section 1
+    subfolderitems:
+      - page: Docs
+        url: /section1/docs.html
+      - page: Play
+        url: /section1/play.html
+  - title: Section 2
+    subfolderitems:
+      - page: Foo
+        url: /section2/foo.html
+      - page: Bar
+        url: /section2/bar.html

@@ -1,0 +1,94 @@
+html body {
+    background-color: #f6f6f6;
+    color: #505253;
+    font-family: "Bliss Light",Calibri,"Helvetica Neue",Arial,sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+}
+
+.wrap-outer {
+    max-width: 1300px;
+    background-color: #fff;
+    margin: 0 auto;
+}
+
+#main-header {
+    padding: 2.5% 0 0 0;
+}
+
+#main-header .signup {
+	text-align: right;
+}
+
+.container-fluid {
+    max-width: 1200px;
+}
+
+html h2 {
+	margin-top: 1rem;
+}
+
+#table-of-contents {
+    max-height: calc(100vh - 4rem);
+    overflow-y: auto;
+    -ms-flex-order: 2;
+    order: 2;
+    font-size: .875rem;
+}
+
+#main-menu, #table-of-contents {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 20px;
+}
+
+#main-menu .menu-section ul {
+	display: none;
+}
+
+#main-menu .menu-section.active ul {
+	display: flex;
+}
+
+#main-menu .menu-section ul {
+	padding-left: 1.5rem;
+}
+
+.menu-section ul .nav-link {
+	padding-left: 0.1rem;
+}
+.menu-section ul .nav-link.active {
+	color: #007bff;
+	background-color: #fff;
+	padding-left: 0.1rem;
+}
+
+.menu-section ul.nav li.nav-item.active {
+	list-style: square outside;
+}
+
+.btn.try-button {
+	padding-top: 0.25em;
+	padding-bottom: 0.25em;
+}
+
+.example .nav {
+	position: relative;
+}
+
+.try-item {
+	position:absolute;
+	right: .5rem;
+}
+
+#generated-cards-wrapper {
+	margin-top: 1rem;
+}
+
+
+.parameter-line {
+    margin-top: 15px;
+    margin-right: 20px;
+    display: inline-block;
+}
